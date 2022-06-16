@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
+
+.atools{
+    color: #023047;
+    font-weight: 700;
+    line-height: 6px;
+    margin-right: auto;
+}
+.bluish-color{
+    background-color: #023047;
+}
+.checkbox-login:checked {
+    background-color: #023047 ;
+    border-color: #023047 ;
+}
+.forgot-pass{
+    text-decoration: none;
+    color: black;
+}
+.login-title{
+    font-weight: 700;
+    color: black;
+    letter-spacing: 150%;
+}
+.login-form{
+    margin-right: auto;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-btn:hover{
+    color: black !important;
+    background-color: blueviolet;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.login-btn:active{
+    color: black !important;
+    background-color: blueviolet;
+}
+
+@media only screen and (max-width: 900px) {
+    .disappear {
+      display: none;
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
